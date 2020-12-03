@@ -1,4 +1,4 @@
-var desiredTime= prompt("please enter the time in format month/date/year hour:minute:seconds","");
+var desiredTime= prompt("please enter the time in format dd/mm/yy hour:minute:seconds","");
 
 var countdownDate= new Date(desiredTime).getTime();
 
